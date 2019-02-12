@@ -1,0 +1,60 @@
+img {
+  position: absolute;
+}
+
+#bottomImg {
+  position: absolute;
+  top: 0px;
+}
+
+#images {
+  position: absolute;
+  top: 10em;
+  left: 50%;
+  transform: translateX(-20em);
+}
+
+#hatText {
+  position: absolute;
+  right: 5em;
+  top: 1em;
+}
+
+#shoesText {
+  position: absolute;
+  right: 5em;
+  bottom: 1em;
+}
+
+#dressText {
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.descriptions {
+  width: 25%;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+button {
+  background:    #93c47d;
+  background:    -webkit-linear-gradient(#93c47d, #134f5c);
+  background:    linear-gradient(#93c47d, #134f5c);
+  border-radius: 11px;
+  padding:       8px 20px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal 700 24px/1 "Komika", cursive;
+  text-align:    center;
+  text-shadow:   2px 2px #000000;
+}
